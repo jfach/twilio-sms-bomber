@@ -20,7 +20,7 @@ for x in range(0, message_count):
 	message = client.messages.create(
 		body=str(message),
 		to=str(recipient),
-		from_=str(from_number)
+		from_=str(from_number))
 	print str(x + 1) + " message(s) sent!"
 	print "Message SID: " + message.sid
 	time.sleep(1)
