@@ -3,9 +3,9 @@ import sys
 import time
 from twilio.rest import TwilioRestClient
 
-account_sid = os.environ['twilio_bomb_sid']
-auth_token = os.environ['twilio_bomb_token']
-from_number = os.environ['twilio_bomb_number']
+aexport twilio_bomb_sid=TWILIO_ACCOUNT_SID
+export twilio_bomb_token=TWILIO_AUTH_TOKEN
+export twilio_bomb_number=TWILIO_NUMBER
 
 client = TwilioRestClient(account_sid, auth_token)
 
